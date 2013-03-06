@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:##}_Hero_P1_wk${2:##}_${3:######}
+${1:##}_P234_wk${2:##}_${3:######}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>ch3-7</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+ ${1:<div id="modalFirstVideo" class="window">
+            <a href="#" class="close">[x]</a>
+            <div id="firstVideo"></div>
+        </div> }
+     ${2: <!-- } <div id="modalSecondVideo" class="window">
+            <a href="#" class="close">[x]</a>
+            <div id="secondVideo"></div>
+        </div>${3: -->}
+        ${4:<!--} <area shape="rect" coords="##### #### ####" href="#modalFirstVideo" class="modalTrigger" style="cursor:pointer;" alt="Watch Video" title="Watch Video" />   ${5: -->}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>vid</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

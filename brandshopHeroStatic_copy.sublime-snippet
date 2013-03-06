@@ -1,0 +1,121 @@
+<snippet>
+	<content><![CDATA[
+<!-- >>>> UN-COMMENT THE jQuery BELOW TO HIDE PROMO_COLLAPSE AREA MONETATE-->
+
+
+<!-- 
+<script type="text/javascript" src="http://www.belk.com/media/javascript/libs/jquery-1.4.4.min.js"></script>
+
+<script> \$(document) .ready(function() {
+		\$(".promo_collapse").hide();
+});
+</script>
+ -->
+
+ 
+<script type="text/javascript" src="http://www.belk.com/media/javascript/libs/jquery-1.4.4.min.js"></script>
+
+<style>
+/* template layout css*/
+ #production .hero_static, #production .promo {
+	width: 780px;
+	display: block;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin: 0 0 0 0;
+}
+ #production .promo_p1 {
+	width: 390px;
+	float: left;
+	clear: both;
+}
+
+ #production .html {
+	width: 390px;
+	float: left;
+ 
+}
+#production .promo_collapse {
+	position: relative;
+	width: 780px;
+	height: 100px;
+	clear: both;
+}
+
+ 
+</style>
+
+<!-- >>>> HTML for page changes links and images-->
+	<div id="production">
+ 	      <div class="hero_static">
+		     <img width="780" src="http://www.dummyimage.com/780X580/91b5ba/6da9ab.png&text=Static+Hero" border="0" usemap="#HERO" />
+		   </div>
+ 
+		<!-- >>>> Collapsible promo area possible monetate uncomment jQuery at top to hide promo_collapse-->
+		   <div class="promo_collapse">
+			 <img width="780" height="100" src="http://www.dummyimage.com/780X100/98b891/6da9ab.png&text=Collapsible+Promo" border="0" usemap="#CP"  />
+		   </div>
+	
+		<!--Promo 1-->	  
+		   <div class="promo_p1">
+			 <img width="390" src="http://www.dummyimage.com/390X400/4a6e42/6da9ab.png&text=P1" border="0" usemap="#P1" /> 
+		   </div>
+	 
+		<!--html area About Brand Content for SEO -->
+		   <div class="html">
+			 <img width="390" src="http://www.dummyimage.com/390X400/697a64/6da9ab.png&text=HTML+AREA" border="0" usemap="#HTML" />
+		   </div>
+		
+		<!--Promo 2-->
+	   	   <div class="promo p2">
+			 <img width="780" src="http://www.dummyimage.com/780X310/b3b86e/889157.png&text=P2" border="0" usemap="#P2" />
+		   </div>
+	</div>
+
+<!--Image map link area -->
+<map name="HERO">
+    <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+    <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+    <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+    <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+    <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+    <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+</map>
+
+
+<map name="CP">
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+</map>
+  
+  
+<map name="P1">
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+</map>
+
+<map name="HTML">
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+</map>
+  
+  
+<map name="P2">
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+</map>
+
+
+	<!--COPY AND PASTE AS NEEDED IN THE CONTENT ABOVE. PLEASE MAKE NOTE OF THE NAMING CONVENTIONS.-->
+	
+<!--
+   <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+-->
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bsstatic</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,60 @@
+<snippet>
+	<content><![CDATA[
+		<style>
+ #production .hero, #production .promo {
+  width: 780px;
+  display: block;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  margin: 0 0 0 0;
+ }
+
+</style>
+
+
+<div class="gel promo1">
+  <img src="http://s7d4.scene7.com/is/image/Belk/${1:DEPT}_Hero_${2:WEEK}_DATE?&\$P_CONTENT\$" border="0" usemap="#HERO"  />
+</div>
+
+<div class="gel promo2">
+ <img src="http://s7d4.scene7.com/is/image/Belk/${1:DEPT}_P123_${2:WEEK}_DATE?&\$P_CONTENT\$" border="0" usemap="#P123" />
+</div>
+
+<map name="HERO">
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  </map>
+
+<map name="P123">
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  </map>
+
+
+<!--
+COPY AND PASTE AS NEEDED IN THE CONTENT ABOVE. PLEASE MAKE NOTE OF THE NAMING CONVENTIONS.
+
+<map name="HERO">
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  </map>
+
+
+<map name="P123">
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  <area shape="rect" coords="#,#,#,#" href="#####LINK#AND#COREMETRICS#TAG#USE#GENERATOR#####" alt="####" title="####" />
+  </map>
+
+-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>CH2</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

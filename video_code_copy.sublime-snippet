@@ -1,0 +1,117 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://www.belk.com/media/javascript/belk.video.js"></script>
+
+<style>
+
+#mask {
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #000;
+    display: none;
+    margin: 0;
+    padding: 0;
+   }
+
+   .window {
+    width: 500px;
+    height: 281px;
+    display: none;
+    z-index: 10000;
+    padding: 10px;
+    background: #FFFFFF;
+   }
+
+   .window a.close {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background: url(http://www.belk.com/media/images/ui/sprites.png) 0 -48px no-repeat;
+    width: 15px;
+    height: 15px;
+    display: block;
+    text-indent: -9999px;
+   }
+
+   .aside .brand {
+    margin: 0 0 20px 0;
+   }
+
+   .aside .product {
+    margin: 0 0 20px 0;
+    float: left;
+    width: 150px;
+   }
+
+   /* Workaround for IE position: fixed */
+   .window, #mask {
+    position: absolute; left: 0; top: 0; /* Netscape 4, IE 4.x-5.0/Win and other lesser browsers will use this */
+   }
+   body > div.window, body > div#mask {
+     position: fixed; /* used by Opera 5+, Netscape6+/Mozilla, Konqueror, Safari, OmniWeb 4.5+, iCab, ICEbrowser */
+   }
+    
+   .modalTrigger {
+    position: absolute;
+    left: 830px;
+    top: 55px;
+   }
+
+   .modalTrigger img.playIcon {
+    height: 30px;
+    left: 34px;
+    opacity: 0.5;
+    position: absolute;
+    top: 13px;
+    width: 30px;
+    }
+
+    div#content a {
+      display:block;
+    }
+
+</style>    
+
+<script>
+ \$(document).ready(function () {
+  belk.video.basic("firstVideo","${1:videoID#1}",500,281);
+  ${2://}belk.video.basic("secondVideo","${3:videoID#2}",500,281);
+
+   
+     \$('body').children().first().before('<div id="mask"></div>');
+
+   \$('body').children().first().before(\$('#modalFirstVideo').detach());
+   ${4://}\$('body').children().first().before(\$('#modalSecondVideo').detach());
+   
+    \$('.modalTrigger').click(function(e) {
+   
+     e.preventDefault();
+   
+     \$('#mask').fadeTo("slow", 0.8);
+     
+     var id = \$(\$(this).attr('href'));
+     id.center();
+     id.fadeIn(2000);
+
+    });
+     
+    \$('.window .close, #mask').live("click", function (e) {
+     e.preventDefault();
+     \$('#mask, .window').fadeOut("fast");
+    });
+   
+    jQuery.fn.center = function () {
+    this.css("top", Math.floor(\$(window).height()/2 - \$(this).height()/2) - \$(this).parent().offset().top + "px");
+    this.css("left", Math.floor(\$(this).parent().width()/2 - \$(this).width()/2) + "px");
+    return this;
+   }
+ });
+
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>video</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
